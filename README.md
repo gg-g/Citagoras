@@ -40,7 +40,7 @@ No personally identifiable information on your computer or your person is sent t
 
 ## Installation
 
-Citagoras is delivered as a stand-alone application. Downloads are available under the [releases](releases/latest)
+Citagoras is delivered as a stand-alone application. Downloads are available under the [releases](https://github.com/gg-g/Citagoras/releases/latest)
 
 After downloading it, you should have a zip or executable file in your downloads folder.
 
