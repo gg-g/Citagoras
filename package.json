@@ -1,0 +1,65 @@
+{
+  "name": "citagoras",
+  "author": {
+    "name": "Gregory Gabriel",
+    "email": "citagoras@protonmail.com"
+  },
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "axios": "^0.19.2",
+    "buefy": "^0.8.15",
+    "core-js": "^3.6.4",
+    "electron-store": "^5.1.1",
+    "nprogress": "^0.2.0",
+    "p-throttle": "^3.1.0",
+    "pouchdb": "^7.2.1",
+    "pouchdb-upsert": "^2.2.0",
+    "vue": "^2.6.11",
+    "vue-electron": "^1.0.6",
+    "vue-router": "^3.1.6",
+    "vue2vis": "0.0.18",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "electron": "^8.2.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-electron-builder": "2.0.0-beta.6",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
